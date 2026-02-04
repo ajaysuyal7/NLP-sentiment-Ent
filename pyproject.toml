@@ -1,0 +1,20 @@
+[project]
+name = "nlp-sentiment-ent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "boto3>=1.42.41",
+    "dvc[s3]>=2.1.0",
+    "fastapi>=0.128.0",
+    "joblib>=1.5.3",
+    "lightgbm>=4.6.0",
+    "matplotlib>=3.10.6",
+    "mlflow>=3.9.0",
+    "nltk>=3.9.2",
+    "numpy>=2.4.2",
+    "pandas>=2.3.3",
+    "seaborn>=0.13.2",
+    "wordcloud>=1.9.6",
+]
