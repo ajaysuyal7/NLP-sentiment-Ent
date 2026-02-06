@@ -46,8 +46,8 @@ stages:
       size: 4134324
     - path: src/model/model_building.py
       hash: md5
-      md5: 7e6a522f542332755cdd8708067dcb99
-      size: 5629
+      md5: 1efac21d9b5941f247fa1bb696b6f8af
+      size: 5625
     params:
       params.yaml:
         model_building.learning_rate: 0.09
